@@ -68,6 +68,43 @@
 		</tbody>
 	</table>
 
+	<!-- these are used to separete lines and add horizontal line -->
+	<br>
+	<hr>
+	<br>
+
+	<!-- Forms action and method attributes are not covered at this time. Used for more advanced programming than just html -->
+	<form action="process.php" method="POST">
+		<!-- wrapping them in div elements places them on different lines -->
+		<div>
+			<label>First Name</label>
+			<input type="text" name="firstName">
+		</div>
+		<br>
+		<div>	
+			<label>Last Name</label>
+			<input type="text" name="lastName">
+		</div>
+		<br>
+		<div>
+			<label>Email</label>
+			<input type="email" name="email">
+		</div>
+		<br>
+		<div>
+			<label>Message</label>
+			<textarea name="message"></textarea>
+		</div>
+		<br>
+		<div>
+			<label>Gender</label>
+			<select name="gender">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+				<option value="Other">Other</option>
+			</select>
+		</div>
+	</form>
 
 
 	<div style="margin-top:500px"></div>
